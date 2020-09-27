@@ -29,7 +29,7 @@ class IAppBVT(unittest.TestCase):
         print('BVT test is started!')
         status = self.is_record_event_btn_exist()
         print(f'The record event button is exist - {status}')
-        self.assertTrue(status, f'Check record_button result is {status}')
+        self.assertqTrue(status, f'Check record_button result is {status}')
         print('Test finished!')
 
     def is_record_event_btn_exist(self):
