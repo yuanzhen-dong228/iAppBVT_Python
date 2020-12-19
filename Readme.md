@@ -2,7 +2,7 @@
 运行环境：
 - appium server
 - python3
-- unittest, nosetests
+- unittest, pytest
 - git
 
 配置文件：iAppBVT_Python.json
@@ -10,4 +10,4 @@
 - 填入设备的 deviceName 与 udid
 
 运行命令：
-nosetests -v test/bvt_test.py -s --tc-file /full path/iAppBVT_Python.json --tc-format json
+pytest -sv test/bvt_test.py --tc-file /full path/iAppBVT_Python.json --tc-format json
