@@ -2,7 +2,6 @@ allure-pytest
 appium-python-client
 pytest
 pytest-testconfig
-nose-testconfig
 requests
 selenium
 urllib3
